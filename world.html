@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID Tracker</title>
+
+	<link rel="shortcut icon" href="corona.jpeg">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles-world.css">
+	<script type="text/javascript" src="app2.js"></script>
+
+</head>
+<body>
+	<h1 class="title">COVID-19 статистика. Весь Мир. </h1>
+    <h2 class="subtitle">Последняя информация о "Corona Virus".</h2>
+    
+    
+	<div class="data-container">
+		<h2 class="subtitle2">По всему миру или Worldwide</h2>
+		<div class="stats-container">		
+			<h4>Всего заболеваний</h4>
+			<h1 id="TotalConfirmed"></h1>
+			<h4>Выздоровело</h4>
+			<h1 id="TotalRecovered"></h1>
+			<h4>Умерло</h4>
+			<h1 id="TotalDeaths"></h1>
+		</div>
+		<div class="location-container">
+			<h4>Новые случаи заболевания</h4>
+			<h1 id="NewConfirmed"></h1>
+			<h4>Выздоровело</h4>
+			<h1 id="NewRecovered"></h1>
+			<h4>Умерло</h4>
+			<h1 id="NewDeaths"></h1>
+
+			<!-- let NewConfirmed = data.Global.NewConfirmed;
+			let TotalConfirmed = data.Global.TotalConfirmed;
+			let NewDeaths = data.Global.NewDeaths;
+			let TotalDeaths = data.Global.TotalDeaths;
+			let NewRecovered = data.Global.NewRecovered;
+			let TotalRecovered = data.Global.TotalRecovered; -->
+        </div>
+        <h2 class="subtitle"><a href="index.html">Статистика в России</a></h2>
+	</div>
+	<h1 class="footer">By Skaylife | Information provided by <a href="https://covid19api.com/">Covid19api.com</a></h1>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>

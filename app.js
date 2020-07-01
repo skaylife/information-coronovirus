@@ -1,5 +1,6 @@
 window.onload = function() {
 	getCovidStats();
+	
 }
 
 function getCovidStats() {
